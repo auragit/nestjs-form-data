@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://img.shields.io/badge/License-MIT-green.svg)
 
 
-
+I added @Global() to the module so you can import it once in the app.module.
 
 # Description
 nestjs-form-data is a [NestJS](https://github.com/nestjs/nest) middleware for handling multipart/form-data, which is primarily used for uploading files.
