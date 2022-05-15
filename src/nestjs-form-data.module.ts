@@ -1,4 +1,4 @@
-import { DynamicModule, Module, Provider } from '@nestjs/common';
+import { DynamicModule, Module, Provider, Global } from '@nestjs/common';
 import { FormDataInterceptor } from './interceptors/FormData.interceptor';
 import { FormDataInterceptorConfig, NestjsFormDataAsyncOptions, NestjsFormDataConfigFactory } from './interfaces';
 import { GLOBAL_CONFIG_INJECT_TOKEN } from './config/global-config-inject-token.config';
