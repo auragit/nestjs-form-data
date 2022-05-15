@@ -5,6 +5,7 @@ import { GLOBAL_CONFIG_INJECT_TOKEN } from './config/global-config-inject-token.
 import { DEFAULT_CONFIG } from './config/default.config';
 import { checkConfig } from './helpers/check-config';
 
+@Global()
 @Module({
   providers: [
     FormDataInterceptor,
